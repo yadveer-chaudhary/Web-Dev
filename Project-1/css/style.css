@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #444;
+    color: white;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ac5858;
+    padding: 8px;
+}
+
+.sanskriti, .iic{
+    width : 130px;
+}
+
+.address{
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: #6f71c2;
+    padding: 7px;
+}
+
+.part-1{
+    display: flex;
+    /* justify-content: center; */
+    height: 300px;
+}
+
+.first{
+    background-color: #37b9af;
+    padding: 8px;
+}
+
+.second{
+    background-color: #0b534d;
+    padding: 8px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    background-color: #b31919;
+    height: auto;
+}
+
+.card-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #308abe;
+    padding: 4px;
+    border: 3px solid rgb(76, 75, 182);
+}
+
+.card-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        background-color: #308abe;
+    padding: 4px;
+    border: 3px solid rgb(76, 75, 182);
+}
+
+.card-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #308abe;
+    padding: 4px;
+    border: 3px solid rgb(76, 75, 182);
+}
+
+img{
+    width: 450px;
+}
+
+button{
+    background-color: #5f71d6;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+button:hover{
+    background-color: #3248c2;
+
+}
+
+footer{
+    background-color: #504c4c;
+}
+
+footer p{
+    text-align: center;
+}
